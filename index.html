@@ -1,12 +1,115 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Página de Relleno</title>
+  <link rel="stylesheet" href="estilos/estilos.css">
 </head>
 <body>
-  
+
+  <header>
+    <h1>Encabezado Principal de la Página</h1>
+    <nav>
+      <ul>
+        <li><a href="#seccion1">Sección 1</a></li>
+        <li><a href="#seccion2">Sección 2</a></li>
+        <li><a href="#seccion3">Sección 3</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="seccion1">
+      <h2>Sección 1: Párrafos y Citas</h2>
+      <p>Este es un párrafo de ejemplo. Contiene texto de relleno para demostrar la apariencia del contenido. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
+      <p>Otro párrafo para mostrar más contenido. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.</p>
+      <blockquote cite="http://www.example.com">
+        <p>Esto es una cita en bloque. A menudo se utiliza para destacar una porción de texto de otra fuente.</p>
+      </blockquote>
+    </section>
+
+    <section id="seccion2">
+      <h2>Sección 2: Listas y Tablas</h2>
+      <h3>Lista Desordenada</h3>
+      <ul>
+        <li>Elemento de lista 1</li>
+        <li>Elemento de lista 2</li>
+        <li>Elemento de lista 3
+          <ul>
+            <li>Sub-elemento anidado</li>
+          </ul>
+        </li>
+      </ul>
+      <h3>Lista Ordenada</h3>
+      <ol>
+        <li>Primer elemento</li>
+        <li>Segundo elemento</li>
+        <li>Tercer elemento</li>
+      </ol>
+      <h3>Tabla de Datos</h3>
+      <table border="1">
+        <caption>Ejemplo de Tabla</caption>
+        <thead>
+          <tr>
+            <th>Encabezado 1</th>
+            <th>Encabezado 2</th>
+            <th>Encabezado 3</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Dato 1</td>
+            <td>Dato 2</td>
+            <td>Dato 3</td>
+          </tr>
+          <tr>
+            <td>Dato 4</td>
+            <td>Dato 5</td>
+            <td>Dato 6</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="seccion3">
+      <h2>Sección 3: Formulario de Ejemplo</h2>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Información Personal</legend>
+          <p>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+          </p>
+          <p>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+          </p>
+          <p>
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea>
+          </p>
+          <p>
+            <input type="submit" value="Enviar">
+          </p>
+        </fieldset>
+      </form>
+    </section>
+
+    <article>
+        <h2>Artículo de Ejemplo</h2>
+        <p>Este es el contenido de un artículo. Puede ser independiente del resto del contenido.</p>
+        <details>
+            <summary>Ver más detalles</summary>
+            <p>Aquí hay más detalles que inicialmente estaban ocultos.</p>
+        </details>
+    </article>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mi Sitio Web de Relleno. Todos los derechos reservados.</p>
+  </footer>
+
 </body>
 </html>
-
