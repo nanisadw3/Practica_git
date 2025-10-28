@@ -1,44 +1,6 @@
-# Archivo: CODEOWNERS
-# ---------------------------------------------------------
-# Este archivo define quién es responsable del mantenimiento
-# y revisión de cada parte del código del repositorio.
-# GitHub asignará automáticamente a los propietarios (code owners)
-# como revisores cuando se cree un Pull Request que afecte
-# a los archivos que administran.
-# ---------------------------------------------------------
+# Asignar propietario del index.html
+/index.html @nanisadw3
 
-# 👤 Propietarios globales (responsables de todo el repositorio)
-# Si no se especifica otra regla, estos usuarios revisarán todos los cambios.
-*       @org-admins @jose-developer
+# Asignar propietario del style.css
+/style.css @InakiW919
 
-# 📁 Propietario del directorio de backend
-/backend/           @backend-team @laura-dev
-
-# 📁 Propietario del directorio de frontend
-/frontend/          @frontend-team @ana-frontend
-
-# 📁 Propietario de la documentación
-/docs/              @technical-writer @marco-docs
-
-# 📄 Propietario del archivo de configuración principal
-config.yml          @devops-team
-
-# 🧪 Propietarios de las pruebas automáticas
-/tests/             @qa-team
-
-# ⚙️ Propietario de los scripts de automatización
-/scripts/           @devops-team
-
-# 📜 Licencia y políticas del proyecto
-LICENSE             @legal-team
-SECURITY.md         @security-officer
-
-# 📦 Dependencias del proyecto (por ejemplo package.json, requirements.txt)
-package.json        @frontend-team
-requirements.txt    @backend-team
-
-# 🎨 Archivos de diseño y recursos estáticos
-/assets/            @design-team
-
-# Duenio del proyecto
-*.md @nanisadw3
