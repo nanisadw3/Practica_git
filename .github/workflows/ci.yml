@@ -1,0 +1,8 @@
+name: CI Basica de Prueba
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo 'El workflow se disparó por un push.'
