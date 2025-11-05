@@ -21,7 +21,6 @@ El objetivo principal de este proyecto es **practicar Git y GitHub**, mientras s
 ## Cómo usar
 
 
-#### prueva
 1. Clona el repositorio:  
 ```bash
 git clone https://github.com/usuario/nombre-del-repo.git
